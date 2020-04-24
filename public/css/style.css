@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.more{
+    list-style-type: none;
+    background-color: rgb(224, 221, 221);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+hr{
+    border-color: black;
+}
+
+.main{
+    padding: 0px 10px;
+    height: 10000px;
+    background-color: rgb(236, 236, 235);
+}
+
+#note{
+    background-color: cadetblue;
+    color: white;
+    
+}
+
+#color{
+    float: right;
+    background-color: darkgray;
+    color: black;
+    
+}
+.textarea{
+    
+    grid-column: 2/3;
+    grid-row: 1;
+    size: auto;
+}
+
+.inp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100px 100px 100px 20;
+}
+
+#save{
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+#cancel{
+    grid-column: 3/4;
+    grid-row: 3;
+    
+}
+.firstline{
+    display: flex;
+    justify-content: space-between;
+}
